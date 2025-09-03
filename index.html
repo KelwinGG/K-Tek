@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Apple kt - Apple Style</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header>
+    <div class="logo">K-tek</div>
+    <nav>
+      <a href="#produto1">Produtos</a>
+      <a href="#lançamento1">Lançamentos</a>
+      <a href="https://wa.me/5519994256791?text=Tenho%20interesse!">Suporte</a>
+    </nav>
+    <a href="https://wa.me/5519994256791?text=Tenho%20interesse!">
+    <button class="btn">Entre em Contato</button>
+    </a>
+  </header>
+
+  <!-- Seção de Destaque -->
+   <div id="lançamento1" class="lançamento">
+  <section class="hero">
+    <h1>iPhone 15</h1>
+    <p>Potência,desingn e inovação.Tudo isso na palma da sua mão</p>
+    <img src="/img/-1113972290-removebg-preview.png" alt="Iphone 15">
+  </section>
+  </div>
+
+  <!-- Produtos -->
+  <section class="products">
+    <div id="produto1" class="product">
+      <img src="/img/download-removebg-preview.png" alt="Iphone 14 Pro">
+      <h3>iPhone 14 Pro</h3>
+            <a href="https://wa.me/5519994256791?text=Tenho%20interesse!">
+      <button class="btn">Saiba mais</button>
+      </a>
+    </div>
+    <div class="product">
+      <img src="/img/download-removebg-preview (2).png" alt="Macbook pro">
+      <h3>MacBook Pro</h3>
+           <a href="https://wa.me/5519994256791?text=Tenho%20interesse!">
+      <button class="btn">Saiba mais</button>
+      </a>
+    </div>
+    <div class="product">
+      <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MQD83?wid=532&hei=582&fmt=png-alpha&.v=1660803972361" alt="AirPods Pro">
+      <h3>AirPods Pro</h3>
+      <a href="https://wa.me/5519994256791?text=Tenho%20interesse!">
+      <button class="btn">Saiba mais</button>
+      </a>
+    </div>
+  </section>
+
+  <!-- Lançamento -->
+  <section class="launch">
+    <h2>Compre agora mesmo</h2>
+    <p>Clique em saiba mais e fale conosco no whatsapp</p>
+  </section>
+
+  <!-- Rodapé -->
+  <footer>
+    <nav>
+      <a href="#">Privacidade</a>
+      <a href="#">Termos</a>
+      <a href="#">Contato</a>
+    </nav>
+    <p>&copy; 2025 TechStore. Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- Interatividade (JS simples direto no HTML) -->
+  <script>
+    const buttons = document.querySelectorAll('.btn');
+    buttons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        alert('Botão clicado! (Aqui você pode abrir um link ou mostrar mais info)');
+      });
+    });
+  </script>
+</body>
+</html>
+
